@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="24dp"
+    android:background="@drawable/splash_icon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_contain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical" >
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳过"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="14sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/fl_contain"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/white"
+        android:background="#90000000"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>
