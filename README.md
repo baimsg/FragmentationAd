@@ -24,3 +24,5 @@ alert('RUNOOB');
     }
 ```
 看不懂请自行 [百度](https://baidu.com)
+
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
