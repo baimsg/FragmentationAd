@@ -11,6 +11,6 @@ download[^RUNOOB]
 > > > 第二层嵌套
 
     javascript
-$(document).ready(function () {
+    $(document).ready(function () {
     alert('RUNOOB');
-});
+    });
