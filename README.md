@@ -25,4 +25,4 @@ alert('RUNOOB');
 ```
 看不懂请自行 [百度](https://baidu.com)
 
-![RU 图标](http://static.runoob.com/images/runoob-logo.png)
+![图标](http://static.runoob.com/images/runoob-logo.png 'Test')
