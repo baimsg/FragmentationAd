@@ -28,6 +28,6 @@ alert('RUNOOB');
 ![图标](http://static.runoob.com/images/runoob-logo.png 'Test')
 
 | 版本号 | 更新时间  | 更新内容 |
-| ----- | ------- | -------|
+| :----- | -------: | :-------:|
 |10|20|10|
  
