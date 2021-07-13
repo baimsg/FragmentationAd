@@ -3,11 +3,11 @@
 # 使用说明
 基于fragmentation实现的穿山甲开屏广告demo
 
-ghs[^RUNOOB]
+download[^RUNOOB]
 
 
 
 
 
 
-[^RUNOOB]: 我是一个角逐
+[^RUNOOB]: http://www.baibu.com
