@@ -15,3 +15,11 @@ $(document).ready(function () {
 alert('RUNOOB');
 });
 ```
+
+```
+ @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        mDelegate.onSaveInstanceState(outState);
+    }
+```
