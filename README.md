@@ -3,7 +3,7 @@
 # 使用说明
 基于fragmentation实现的穿山甲开屏广告demo
 
-download[^RUNOOB]。
+download[^RUNOOB]
 [^RUNOOB]: http://www.baibu.com
 > 最外层
 > > 第一层嵌套
