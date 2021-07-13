@@ -10,7 +10,7 @@ download[^RUNOOB]
 > > 第一层嵌套
 > > > 第二层嵌套
 
-    javascript
-    $(document).ready(function () {
-    alert('RUNOOB');
-    });
+```javascript
+$(document).ready(function () {
+alert('RUNOOB');
+});```
