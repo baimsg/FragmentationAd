@@ -23,4 +23,4 @@ alert('RUNOOB');
         mDelegate.onSaveInstanceState(outState);
     }
 ```
-看不懂请自行[百度](https://baidu.com)
+看不懂请自行 [百度]<https://baidu.com>
