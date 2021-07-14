@@ -12,6 +12,9 @@ import me.yokeyword.fragmentation.SupportActivity
 
 abstract class BaseActivity<VB : ViewBinding> : SupportActivity(), ISupportActivity {
     private var isAppAlreadyStart = false
+    private lateinit var _binding: VB
+    protected val binding get() = _binding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (isAppAlreadyStart) return
@@ -22,14 +25,15 @@ abstract class BaseActivity<VB : ViewBinding> : SupportActivity(), ISupportActiv
                 return
             }
         } else {
-            setContentView(binding.root)
+            _binding = getViewBinding()
+            setContentView(_binding.root)
         }
         setStateBar()
     }
 
     open var stateBackcolor = View.SYSTEM_UI_FLAG_LAYOUT_STABLE
 
-    protected abstract val binding: VB
+    protected abstract fun getViewBinding(): VB
 
     private fun setStateBar() {
         if (Build.VERSION.SDK_INT >= 21) {

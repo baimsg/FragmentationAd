@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="warn" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
@@ -25,6 +25,11 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
@@ -33,11 +38,16 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f0a0c2-6773-4080-bb7e-ace920603b13" name="Default Changelist" comment="实现开屏广告" />
+    <list default="true" id="c1f0a0c2-6773-4080-bb7e-ace920603b13" name="Default Changelist" comment="实现开屏广告">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/java/db/daibai/basic/activity/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/java/db/daibai/basic/activity/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/activity/MainActivity.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626079792658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="实现开屏广告">
+      <created>1626085530923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626085530923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +302,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -369,55 +397,55 @@
     </state>
     <state x="100" y="100" width="2360" height="1240" key="DiffContextDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1626072526060" />
     <state x="100" y="100" width="2360" height="1240" key="DiffContextDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1626073505698" />
-    <state width="2518" height="487" key="GridCell.Tab.0.bottom" timestamp="1626074791840">
+    <state width="2518" height="424" key="GridCell.Tab.0.bottom" timestamp="1626260012169">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="487" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1626074791840" />
+    <state width="2518" height="424" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1626260012169" />
     <state width="2518" height="424" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367083" />
-    <state width="2518" height="487" key="GridCell.Tab.0.center" timestamp="1626074791839">
+    <state width="2518" height="424" key="GridCell.Tab.0.center" timestamp="1626260012168">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="487" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1626074791839" />
+    <state width="2518" height="424" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1626260012168" />
     <state width="2518" height="424" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367082" />
-    <state width="2518" height="487" key="GridCell.Tab.0.left" timestamp="1626074791838">
+    <state width="2518" height="424" key="GridCell.Tab.0.left" timestamp="1626260012167">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="487" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1626074791838" />
+    <state width="2518" height="424" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1626260012167" />
     <state width="2518" height="424" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367077" />
-    <state width="2518" height="487" key="GridCell.Tab.0.right" timestamp="1626074791840">
+    <state width="2518" height="424" key="GridCell.Tab.0.right" timestamp="1626260012168">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="487" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1626074791840" />
+    <state width="2518" height="424" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1626260012168" />
     <state width="2518" height="424" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367082" />
-    <state width="2518" height="424" key="GridCell.Tab.1.bottom" timestamp="1625708883830">
+    <state width="2518" height="424" key="GridCell.Tab.1.bottom" timestamp="1626260010659">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="424" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1625708883830" />
-    <state width="2518" height="424" key="GridCell.Tab.1.center" timestamp="1625708883829">
+    <state width="2518" height="424" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1626260010659" />
+    <state width="2518" height="424" key="GridCell.Tab.1.center" timestamp="1626260010658">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="424" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1625708883829" />
-    <state width="2518" height="424" key="GridCell.Tab.1.left" timestamp="1625708883829">
+    <state width="2518" height="424" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1626260010658" />
+    <state width="2518" height="424" key="GridCell.Tab.1.left" timestamp="1626260010658">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="424" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1625708883829" />
-    <state width="2518" height="424" key="GridCell.Tab.1.right" timestamp="1625708883830">
+    <state width="2518" height="424" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1626260010658" />
+    <state width="2518" height="424" key="GridCell.Tab.1.right" timestamp="1626260010659">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="424" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1625708883830" />
+    <state width="2518" height="424" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1626260010659" />
     <state x="401" y="299" width="974" height="728" key="SettingsEditor" timestamp="1626083536971">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="401" y="299" width="974" height="728" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1626083536971" />
     <state x="393" y="301" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1625219790384" />
-    <state x="1132" y="637" key="VCS.ChangelistChooser" timestamp="1626072520039">
+    <state x="1132" y="637" key="VCS.ChangelistChooser" timestamp="1626085605625">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1132" y="637" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626072520039" />
-    <state x="880" y="457" key="Vcs.Push.Dialog.v2" timestamp="1626079914070">
+    <state x="1132" y="637" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626085605625" />
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2" timestamp="1626085993929">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1626079914070" />
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1626085993929" />
     <state x="990" y="533" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog" timestamp="1625642152429">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -434,9 +462,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1124" y="522" key="refactoring.ChangeSignatureDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1625625570042" />
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1625814022045">
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1626260120642">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1625814022045" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1626260120642" />
   </component>
 </project>
