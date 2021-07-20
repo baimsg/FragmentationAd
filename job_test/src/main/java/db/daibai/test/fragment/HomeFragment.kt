@@ -6,9 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModelProvider
-import com.bytedance.sdk.openadsdk.TTAdNative
+import com.bytedance.sdk.openadsdk.*
 import db.daibai.basic.fragment.BaseFragment
 import db.daibai.test.databinding.FragmentHomeBinding
+import db.daibai.test.utils.ToolsUtil
 import db.daibai.test.viewmodel.MainViewModel
 
 
@@ -35,6 +36,58 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
         }
         binding.btnLess.setOnClickListener {
             count.value = (count.value ?: 0) - 1
+        }
+        binding.btnInteraction.setOnClickListener {
+            val mTTAdNative = TTAdSdk.getAdManager().createAdNative(_mActivity)
+            val adSlot = AdSlot.Builder()
+                .setCodeId("946385779") //广告位id
+                .setSupportDeepLink(true)
+                .setOrientation(TTAdConstant.VERTICAL)
+                .setExpressViewAcceptedSize(
+                    600f,
+                    400f
+                ) //期望模板广告view的size,单位dp
+                .build()
+            mTTAdNative.loadFullScreenVideoAd(
+                adSlot,
+                object : TTFullScreenVideoAd.FullScreenVideoAdInteractionListener,
+                    TTAdNative.FullScreenVideoAdListener {
+
+
+                    override fun onError(code: Int, message: String?) {
+                        ToolsUtil.show(requireContext(), "$code: $message")
+                        binding.flContainer.removeAllViews()
+                    }
+
+                    override fun onFullScreenVideoAdLoad(ad: TTFullScreenVideoAd?) {
+                        binding.flContainer.removeAllViews()
+//                        binding.flContainer.addView(ad.)
+                    }
+
+                    override fun onFullScreenVideoCached() {
+                        TODO("Not yet implemented")
+                    }
+
+                    override fun onAdShow() {
+                        TODO("Not yet implemented")
+                    }
+
+                    override fun onAdVideoBarClick() {
+                    }
+
+                    override fun onAdClose() {
+                        TODO("Not yet implemented")
+                    }
+
+                    override fun onVideoComplete() {
+                        TODO("Not yet implemented")
+                    }
+
+                    override fun onSkippedVideo() {
+                        TODO("Not yet implemented")
+                    }
+                })
+
         }
         start(SplashFragment())
 

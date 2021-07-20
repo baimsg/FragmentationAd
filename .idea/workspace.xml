@@ -37,6 +37,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -53,16 +54,27 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_8_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_8_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/job_test/test.job_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/job_test/test.job_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/HomeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/SplashFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/SplashFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +84,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@192.168.50.97:8848]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@MFSOSSDQYDTK7S7T]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -454,10 +466,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1132" y="637" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626085605625" />
-    <state x="880" y="457" key="Vcs.Push.Dialog.v2" timestamp="1626428722132">
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2" timestamp="1626778680088">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1626428722132" />
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1626778680088" />
     <state x="990" y="533" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog" timestamp="1625642152429">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

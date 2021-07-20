@@ -2,4 +2,5 @@
     <string name="app_name">test</string>
     <string name="add">加</string>
     <string name="less">减</string>
+    <string name="btn_interaction">插屏广告</string>
 </resources>
