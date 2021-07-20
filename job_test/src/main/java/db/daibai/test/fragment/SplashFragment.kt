@@ -37,7 +37,6 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>() {
             .setImageAcceptedSize(1080, 1920)
             .build()
         if (TTAdSdk.isInitSuccess()) {
-            //一定要在初始化后才能调用，否则为空
             ttAdManager = TTAdSdk.getAdManager()
             mTTAdNative = ttAdManager.createAdNative(context)
         }
@@ -54,9 +53,7 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>() {
                 if (ad == null) return
                 val view: View = ad.splashView
                 binding.flContain.removeAllViews()
-                //把SplashView 添加到ViewGroup中,注意开屏广告view：width =屏幕宽；height >=75%屏幕高
                 binding.flContain.addView(view)
-                //设置SplashView的交互监听器
                 ad.setSplashInteractionListener(object : TTSplashAd.AdInteractionListener {
                     override fun onAdClicked(view: View, type: Int) {
                     }

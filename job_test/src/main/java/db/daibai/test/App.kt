@@ -30,6 +30,8 @@ class App : Application() {
                 .build()
         )
 
+
+        //fragmentation 悬浮球初始化！
         Fragmentation.builder().stackViewMode(Fragmentation.BUBBLE)
             .debug(true)
             .handleException {
