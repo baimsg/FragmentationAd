@@ -1,9 +1,12 @@
 apply plugin: 'com.android.library'
-rootProject.ext.setKotlin project
 android {
-    rootProject.ext.setDefaultConfig android
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    
     lintOptions {
         abortOnError false
+
     }
     buildTypes {
         release {
@@ -13,6 +16,6 @@ android {
     }
 }
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation "androidx.fragment:fragment:1.3.0"
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation "androidx.fragment:fragment:1.3.4"
 }

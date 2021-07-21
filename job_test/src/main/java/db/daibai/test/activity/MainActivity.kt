@@ -7,7 +7,7 @@ import com.bytedance.sdk.openadsdk.TTNativeExpressAd.ExpressAdInteractionListene
 import db.daibai.basic.activity.BaseActivity
 import db.daibai.test.R
 import db.daibai.test.databinding.ActivityMainBinding
-import db.daibai.test.fragment.HomeFragment
+import db.daibai.test.fragment.home.HomeFragment
 import db.daibai.test.utils.ToolsUtil
 import me.yokeyword.fragmentation.anim.DefaultVerticalAnimator
 

@@ -29,6 +29,8 @@
         android:id="@+id/chronometer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,6 +75,15 @@
         app:layout_constraintEnd_toEndOf="@+id/btnLess"
         app:layout_constraintStart_toStartOf="@+id/btnLess"
         app:layout_constraintTop_toBottomOf="@id/btnLess" />
+
+    <Button
+        android:id="@+id/btn_native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_native"
+        app:layout_constraintEnd_toEndOf="@+id/btn_interaction"
+        app:layout_constraintStart_toStartOf="@+id/btn_interaction"
+        app:layout_constraintTop_toBottomOf="@id/btn_interaction" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
