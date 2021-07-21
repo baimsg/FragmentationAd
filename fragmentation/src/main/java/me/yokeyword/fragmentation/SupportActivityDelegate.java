@@ -1,6 +1,7 @@
 package me.yokeyword.fragmentation;
 
 import android.os.Bundle;
+
 import androidx.annotation.DrawableRes;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentationMagician;
+
 import android.view.MotionEvent;
 
 import me.yokeyword.fragmentation.anim.DefaultVerticalAnimator;
@@ -151,11 +153,9 @@ public class SupportActivityDelegate {
                 if (!mFragmentClickable) {
                     mFragmentClickable = true;
                 }
-
                 // 获取activeFragment:即从栈顶开始 状态为show的那个Fragment
                 ISupportFragment activeFragment = SupportHelper.getActiveFragment(getSupportFragmentManager());
                 if (mTransactionDelegate.dispatchBackPressedEvent(activeFragment)) return;
-
                 mSupport.onBackPressedSupport();
             }
         });

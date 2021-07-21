@@ -17,7 +17,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     lateinit var viewModel: MainViewModel
     lateinit var count: MutableLiveData<Int>
     lateinit var mtAdNative: TTAdNative
-
+    var mTTFullScreenVideoAd: TTFullScreenVideoAd? = null
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel =
@@ -45,52 +45,71 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
                 .setOrientation(TTAdConstant.VERTICAL)
                 .setExpressViewAcceptedSize(
                     600f,
-                    400f
+                    200f
                 ) //期望模板广告view的size,单位dp
                 .build()
             mTTAdNative.loadFullScreenVideoAd(
                 adSlot,
-                object : TTFullScreenVideoAd.FullScreenVideoAdInteractionListener,
-                    TTAdNative.FullScreenVideoAdListener {
-
+                object : TTAdNative.FullScreenVideoAdListener {
 
                     override fun onError(code: Int, message: String?) {
                         ToolsUtil.show(requireContext(), "$code: $message")
-                        binding.flContainer.removeAllViews()
                     }
 
                     override fun onFullScreenVideoAdLoad(ad: TTFullScreenVideoAd?) {
-                        binding.flContainer.removeAllViews()
-//                        binding.flContainer.addView(ad.)
+                        mTTFullScreenVideoAd = ad
+                        ToolsUtil.show(
+                            requireContext(),
+                            "FullVideoAd loaded  广告类型：" + getAdType((ad?.fullVideoAdType ?: 0))
+                        )
+
+                        ad?.setFullScreenVideoAdInteractionListener(object :
+                            TTFullScreenVideoAd.FullScreenVideoAdInteractionListener {
+                            override fun onAdShow() {
+                                ToolsUtil.show(requireContext(), "FullVideoAd show")
+                            }
+
+                            override fun onAdVideoBarClick() {
+                                ToolsUtil.show(requireContext(), "FullVideoAd bar click")
+                            }
+
+                            override fun onAdClose() {
+                                ToolsUtil.show(requireContext(), "FullVideoAd close")
+                            }
+
+                            override fun onVideoComplete() {
+                                ToolsUtil.show(requireContext(), "FullVideoAd complete")
+                            }
+
+                            override fun onSkippedVideo() {
+                                ToolsUtil.show(requireContext(), "FullVideoAd skipped")
+                            }
+
+                        })
                     }
 
                     override fun onFullScreenVideoCached() {
-                        TODO("Not yet implemented")
+                        ToolsUtil.show(requireContext(), "ok")
+                        mTTFullScreenVideoAd?.showFullScreenVideoAd(
+                            requireActivity(),
+                            TTAdConstant.RitScenes.GAME_GIFT_BONUS,
+                            null
+                        )
                     }
 
-                    override fun onAdShow() {
-                        TODO("Not yet implemented")
-                    }
-
-                    override fun onAdVideoBarClick() {
-                    }
-
-                    override fun onAdClose() {
-                        TODO("Not yet implemented")
-                    }
-
-                    override fun onVideoComplete() {
-                        TODO("Not yet implemented")
-                    }
-
-                    override fun onSkippedVideo() {
-                        TODO("Not yet implemented")
-                    }
                 })
 
         }
         start(SplashFragment())
+    }
 
+    private fun getAdType(type: Int): String {
+        when (type) {
+            TTAdConstant.AD_TYPE_COMMON_VIDEO -> return "普通全屏视频，type=$type"
+            TTAdConstant.AD_TYPE_PLAYABLE_VIDEO -> return "Playable全屏视频，type=$type"
+            TTAdConstant.AD_TYPE_PLAYABLE -> return "纯Playable，type=$type"
+        }
+        return "未知类型+type=$type"
     }
 
     companion object {

@@ -37,7 +37,8 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -51,30 +52,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_8_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_8_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/job_test/test.job_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/job_test/test.job_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]3/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/HomeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +70,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@MFSOSSDQYDTK7S7T]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@192.168.50.97:8848]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -331,6 +317,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -372,10 +369,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="880" y="365" key="#Plugins/0.0.2560.1440@0.0.2560.1440" timestamp="1625469146090" />
-    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1626766367806">
+    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1626837468964">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626766367806" />
+    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626837468964" />
     <state x="819" y="648" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1625645202458">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -413,25 +410,25 @@
     </state>
     <state x="100" y="100" width="2360" height="1240" key="DiffContextDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1626072526060" />
     <state x="100" y="100" width="2360" height="1240" key="DiffContextDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1626073505698" />
-    <state width="2518" height="495" key="GridCell.Tab.0.bottom" timestamp="1626777244820">
+    <state width="2518" height="495" key="GridCell.Tab.0.bottom" timestamp="1626838523164">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="495" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1626777244820" />
+    <state width="2518" height="495" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1626838523164" />
     <state width="2518" height="424" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367083" />
-    <state width="2518" height="495" key="GridCell.Tab.0.center" timestamp="1626777244819">
+    <state width="2518" height="495" key="GridCell.Tab.0.center" timestamp="1626838523163">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="495" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1626777244819" />
+    <state width="2518" height="495" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1626838523163" />
     <state width="2518" height="424" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367082" />
-    <state width="2518" height="495" key="GridCell.Tab.0.left" timestamp="1626777244817">
+    <state width="2518" height="495" key="GridCell.Tab.0.left" timestamp="1626838523162">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="495" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1626777244817" />
+    <state width="2518" height="495" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1626838523162" />
     <state width="2518" height="424" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367077" />
-    <state width="2518" height="495" key="GridCell.Tab.0.right" timestamp="1626777244820">
+    <state width="2518" height="495" key="GridCell.Tab.0.right" timestamp="1626838523163">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="495" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1626777244820" />
+    <state width="2518" height="495" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1626838523163" />
     <state width="2518" height="424" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1625708367082" />
     <state width="2518" height="424" key="GridCell.Tab.1.bottom" timestamp="1626260010659">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -466,10 +463,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1132" y="637" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626085605625" />
-    <state x="880" y="457" key="Vcs.Push.Dialog.v2" timestamp="1626778680088">
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2" timestamp="1626782772641">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1626778680088" />
+    <state x="880" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1626782772641" />
     <state x="990" y="533" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog" timestamp="1625642152429">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

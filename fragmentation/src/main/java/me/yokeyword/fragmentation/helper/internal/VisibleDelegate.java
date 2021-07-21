@@ -3,6 +3,8 @@ package me.yokeyword.fragmentation.helper.internal;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
+
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -142,6 +144,7 @@ public class VisibleDelegate {
             return;
         }
 
+        Log.d("BUG_FIX", "dispatchSupportVisible: " + mFragment.getClass().getName() + " : " + visible);
         mIsSupportVisible = visible;
 
         if (visible) {

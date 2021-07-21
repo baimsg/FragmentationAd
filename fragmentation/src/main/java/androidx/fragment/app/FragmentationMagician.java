@@ -142,7 +142,8 @@ public class FragmentationMagician {
         try {
 //            FragmentManagerImpl fragmentManagerImpl = (FragmentManagerImpl) fragmentManager;
             // Since v4-25.4.0，mActive: ArrayList -> SparseArray
-            return getActiveList(fragmentManager.getActiveFragments());
+            return getActiveList(fragmentManager.getFragments());
+//            return fragmentManager.getFragments();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -156,7 +157,7 @@ public class FragmentationMagician {
         }
         final int count = active.size();
         ArrayList<Fragment> fragments = new ArrayList<>(count);
-        for (int i = 0; i < count; i++) {
+        for (int i = count - 1; i >= 0; i--) {
             fragments.add(active.get(i));
         }
         return fragments;
