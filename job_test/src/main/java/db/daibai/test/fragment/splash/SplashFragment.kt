@@ -27,7 +27,7 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>() {
 
     private fun initView() {
         val adSlot = AdSlot.Builder()
-            .setCodeId("887503881")
+            .setCodeId("887516503")
             .setImageAcceptedSize(1080, 1920)
             .build()
         if (TTAdSdk.isInitSuccess()) {
@@ -37,10 +37,12 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>() {
         mTTAdNative.loadSplashAd(adSlot, object : TTAdNative.SplashAdListener {
             override fun onError(p0: Int, p1: String?) {
                 ToolsUtil.show(context!!, "$p0:$p1")
+                pop()
             }
 
             override fun onTimeout() {
-                ToolsUtil.show(context!!, "获取超时！")
+                ToolsUtil.show(context!!, "开屏广告获取超时！")
+                pop()
             }
 
             override fun onSplashAdLoad(ad: TTSplashAd?) {

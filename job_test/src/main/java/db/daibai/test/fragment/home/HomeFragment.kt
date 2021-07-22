@@ -18,7 +18,6 @@ import db.daibai.test.viewmodel.MainViewModel
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     lateinit var viewModel: MainViewModel
     lateinit var count: MutableLiveData<Int>
-    lateinit var mtAdNative: TTAdNative
     var mTTFullScreenVideoAd: TTFullScreenVideoAd? = null
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -96,14 +95,12 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
                     }
 
                     override fun onFullScreenVideoCached() {
-                        ToolsUtil.show(requireContext(), "ok")
                         mTTFullScreenVideoAd?.showFullScreenVideoAd(
                             requireActivity(),
                             TTAdConstant.RitScenes.GAME_GIFT_BONUS,
                             null
                         )
                     }
-
                 })
         }
         start(SplashFragment())

@@ -55,32 +55,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/basic/test.basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/basic/test.basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fragmentation/test.fragmentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fragmentation/test.fragmentation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/job_test/test.job_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/job_test/test.job_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fragmentation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fragmentation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/HomeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_test/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/splash/SplashFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/job_test/src/main/java/db/daibai/test/fragment/splash/SplashFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +67,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@192.168.50.97:8848]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@192.168.50.229:38789]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -116,9 +93,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -170,6 +147,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="db.daibai.test.fragment.home" />
+      <recent name="db.daibai.test.fragment.splash" />
       <recent name="db.daibai.basic.fragment" />
       <recent name="db.daibai.test.activity" />
       <recent name="db.daibai.test" />
@@ -389,10 +368,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="880" y="365" key="#Plugins/0.0.2560.1440@0.0.2560.1440" timestamp="1625469146090" />
-    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1626837468964">
+    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1626858118194">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626837468964" />
+    <state x="1065" y="440" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1626858118194" />
     <state x="819" y="648" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1625645202458">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -401,10 +380,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1054" y="605" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1440@0.0.2560.1440" timestamp="1625645204702" />
-    <state x="1054" y="515" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1625797834063">
+    <state x="1054" y="515" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1626857989900">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1054" y="515" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1625797834063" />
+    <state x="1054" y="515" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1626857989900" />
     <state x="1043" y="427" key="#xdebugger.evaluate" timestamp="1625659919010">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
